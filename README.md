@@ -1,42 +1,30 @@
-# Halo Cortana - Universal Desktop Theme Pack
+# Halo Cortana (Neon Advanced Edition) - Theme Pack
 
-Tema desktop bernuansa sci-fi gelap yang terinspirasi dari antarmuka UNSC, Master Chief (Armor Green), dan AI Cortana (Holo Blue). Tema ini dikonfigurasi untuk bekerja dengan dua ekosistem Desktop Linux terbesar (GNOME dan KDE Plasma 6) sekaligus!
+Versi mutakhir dari tema sci-fi dengan **Gradasi Neon Hijau (`#39ff14`)** yang menyala. 
+Bagian Titlebar (GTK/Libadwaita) dan Top Bar (GNOME Shell) dirancang memiliki transisi warna gradien gelap ke hijau menyala dengan efek cahaya *Glow (Box-Shadow)*, memberikan tampilan terminal/sistem AI canggih.
 
-## Preview (Pratinjau)
-
-### GNOME (GTK4 / Libadwaita & GNOME Shell)
+## Preview Animasi & Gradasi Neon
+### GNOME (GTK4 / Libadwaita)
 ![GNOME Preview](preview_gnome.jpg)
 
-### KDE Plasma 6 (Aurorae & Kvantum)
+### KDE Plasma 6 
 ![KDE Preview](preview_kde.jpg)
 
 ---
 
-## Fitur & Dukungan
-*   **GTK 3 & GTK 4 (Libadwaita)**: Mengubah warna jendela dan tombol lewat konfigurasi CSS. (Force Dark-Mode included).
-*   **GNOME Shell**: Kustomisasi panel atas dan menu popup GNOME.
-*   **Ikon Otomatis**: Script sudah dikonfigurasi untuk mengaktifkan set ikon `halo-universe`. *(Pastikan Anda sudah menyalin folder ikon halo-universe ke `~/.icons/`)*.
-*   **KDE Plasma 6 (Global Theme)**: Meta package untuk integrasi penuh di Plasma 6.
-*   **KDE Aurorae**: Dekorasi frame / jendela aplikasi di KDE Plasma.
-*   **Kvantum**: Mesin tema Qt berbasis SVG/config untuk transparansi dan styling aplikasi Qt.
-*   **Background Integration**: Otomatis menyalin `background.png` ke folder Wallpaper.
-
-## Perbaikan (Bug Fixes) di Versi Ini
-1. Memperbaiki *hard-coded bash variable bugs* pada script instalasi.
-2. Memastikan konfigurasi GTK4 disalin (overwrite) dengan aman menggunakan flag `-rf`.
-3. Menambahkan trigger otomatis GNOME `color-scheme 'prefer-dark'` untuk memaksa aplikasi Libadwaita yang bandel membaca *override* warna.
-4. Menambahkan perintah otomatis untuk beralih ke tema ikon `halo-universe`.
+## Fitur Unggulan Versi Ini:
+*   **Linear Gradients:** Top bar dan window header kini tidak lagi solid/datar. Warnanya memudar *(fade)* dari *Deep Dark Green* ke *Vibrant Green*.
+*   **Glow Effects:** Penambahan atribut `box-shadow` CSS yang mensimulasikan pendaran cahaya (neon glow) pada garis bawah jendela dan tombol saat di-hover.
+*   **High Contrast Fonts:** Warna tulisan utama sedikit diputihkan agar lebih mudah dibaca di atas panel gradasi neon.
+*   **Fully Libadwaita Compliant:** GTK4 akan membaca gradasi neon ini secara bawaan (native).
 
 ## Cara Instalasi
-**Penting:** Script ini dipasang pada direktori local pengguna (User Space), sehingga Anda **tidak membutuhkan `sudo` / akses Root**.
+*(Tidak butuh akses root/sudo)*
 
 1. Ekstrak file zip ini.
 2. Buka Terminal di folder hasil ekstraksi.
-3. Jalankan script instalasi:
+3. Jalankan perintah instalasi:
    ```bash
    ./install.sh
    ```
-
-## Konfigurasi Lanjutan Setelah Instalasi
-*   **Jika menggunakan GNOME:** Seharusnya sistem akan langsung berubah. Jika GNOME Shell / Top Panel belum berubah, pastikan ekstensi "User Themes" sudah aktif, lalu lakukan **Log Out & Log In**.
-*   **Jika menggunakan KDE Plasma 6:** Sistem Plasma memerlukan aktivasi manual setelah tema disalin. Buka **System Settings** -> **Global Theme** dan pilih `Halo-Cortana`. Jangan lupa buka **Kvantum Manager** dan setel `Halo-Cortana` sebagai tema aktif.
+4. **Wajib:** Lakukan *Log Out* dan *Log In* ulang setelah menginstal agar seluruh cache tema lama dibersihkan dan efek *glow* dapat me-render dengan sempurna.
