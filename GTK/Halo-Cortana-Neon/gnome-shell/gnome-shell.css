@@ -1,0 +1,23 @@
+
+stage {
+    font-family: 'Cantarell', sans-serif;
+    color: #e0f2e5;
+}
+#panel {
+    background: linear-gradient(90deg, rgba(5,10,7,0.9) 0%, rgba(13,38,20,0.95) 100%);
+    border-bottom: 2px solid #39ff14;
+    box-shadow: 0px 2px 15px rgba(57, 255, 20, 0.35);
+    color: #ffffff;
+    font-weight: bold;
+}
+#panel .panel-button:hover {
+    color: #39ff14;
+    text-shadow: 0 0 8px rgba(57,255,20, 0.6);
+}
+.popup-menu-boxpointer,
+.popup-menu-boxpointer .popup-menu {
+    background: linear-gradient(180deg, rgba(10,20,15,0.98) 0%, rgba(5,10,7,0.98) 100%);
+    border: 1px solid #39ff14;
+    box-shadow: 0px 4px 20px rgba(57, 255, 20, 0.15);
+    color: #39ff14;
+}

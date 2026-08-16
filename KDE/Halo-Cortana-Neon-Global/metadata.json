@@ -1,0 +1,9 @@
+{
+    "KPlugin": {
+        "Description": "Advanced Neon Green UI",
+        "Id": "com.github.halo-cortana-neon",
+        "Name": "Halo-Cortana-Neon",
+        "Version": "1.0"
+    },
+    "kpackage/plasmatheme": "default-dark"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<metacity_theme>
+  <info>
+    <name>Halo-Cortana-Neon</name>
+    <author>Gemini</author>
+  </info>
+  <frame_geometry name="normal" title_scale="medium" rounded_top_left="0" rounded_top_right="0" rounded_bottom_left="0" rounded_bottom_right="0">
+    <distance name="left_width" value="1"/>
+    <distance name="right_width" value="1"/>
+    <distance name="bottom_height" value="1"/>
+    <distance name="left_titlebar_edge" value="0"/>
+    <distance name="right_titlebar_edge" value="0"/>
+    <distance name="title_vertical_pad" value="0"/>
+    <border name="title_border" left="0" right="0" top="0" bottom="0"/>
+    <border name="button_border" left="0" right="0" top="0" bottom="0"/>
+  </frame_geometry>
+</metacity_theme>

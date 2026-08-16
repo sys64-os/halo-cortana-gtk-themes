@@ -1,0 +1,12 @@
+[General]
+TitleHeight=24
+TitleEdgeTop=2
+TitleEdgeBottom=2
+TitleEdgeLeft=2
+TitleEdgeRight=2
+TitleBorderLeft=1
+TitleBorderRight=1
+TitleBorderBottom=1
+ActiveTextColor=57,255,20
+InactiveTextColor=150,150,150
+ActiveTitleBarColor=13,38,20
